@@ -93,16 +93,16 @@ npm install element-ui -S
 ## Quick Start
 ``` javascript
 import Vue from 'vue'
-import Element from 'element-ui'
+import ysElement from 'ys-element-ui'
 
-Vue.use(Element)
+Vue.use(ysElement)
 
 // or
 import {
   Select,
   Button
   // ...
-} from 'element-ui'
+} from 'ys-element-ui'
 
 Vue.component(Select.name, Select)
 Vue.component(Button.name, Button)
@@ -128,39 +128,8 @@ Please make sure to read the contributing guide ([中文](https://github.com/Ele
 
 [![Let's fund issues in this repository](https://issuehunt.io/static/embed/issuehunt-button-v1.svg)](https://issuehunt.io/repos/67274736)
 
-## Special Thanks
-English documentation is brought to you by SwiftGG Translation Team:
-- [raychenfj](https://github.com/raychenfj)
-- [kevin](http://thekevin.cn/)
-- [曾小涛](https://github.com/zengxiaotao)
-- [湾仔王二](https://github.com/wanzaiwanger)
-- [BlooDLine](http://www.ibloodline.com/)
-- [陈铭嘉](https://chenmingjia.github.io/)
-- [千叶知风](http://mpc6.com/)
-- [梁杰](http://numbbbbb.com)
-- [Changing](https://github.com/sunzhuo11)
-- [mmoaay](https://github.com/mmoaay)
-
-Spanish documentation is made possible by these community developers:
-- [adavie1](https://github.com/adavie1)
-- [carmencitaqiu](https://github.com/carmencitaqiu)
-- [coderdiaz](https://github.com/coderdiaz)
-- [fedegar33](https://github.com/fedegar33)
-- [Gonzalo2310](https://github.com/Gonzalo2310)
-- [lesterbx](https://github.com/lesterbx)
-- [ProgramerGuy](https://github.com/ProgramerGuy)
-- [SantiagoGdaR](https://github.com/SantiagoGdaR)
-- [sigfriedCub1990](https://github.com/sigfriedCub1990)
-- [thechosenjuan](https://github.com/thechosenjuan)
-
-French documentation is made possible by these community developers:
-- [smalesys](https://github.com/smalesys)
-- [blombard](https://github.com/blombard)
-
 ## Donation
 If you find Element useful, you can buy us a cup of coffee
-
-<img width="650" src="https://user-images.githubusercontent.com/14025786/44833997-5d7c4d80-ac62-11e8-8445-1dffec0eb13c.png" alt="donation">
 
 ## Backers
 
@@ -237,7 +206,6 @@ Become a sponsor and get your logo on our README on Github with a link to your s
 
 Scan the QR code using [Dingtalk App](https://www.dingtalk.com/) to join in discussion group :
 
-<img alt="Join Discusion Group" src="https://user-images.githubusercontent.com/17680888/66537329-9a4b9100-eb52-11e9-9d99-65469cfdae58.jpeg" width="300">
 
 
 ## LICENSE
