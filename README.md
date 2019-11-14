@@ -93,9 +93,9 @@ npm install element-ui -S
 ## Quick Start
 ``` javascript
 import Vue from 'vue'
-import Element from 'element-ui'
+import ysElement from 'ys-element-ui'
 
-Vue.use(Element)
+Vue.use(ysElement)
 
 // or
 import {
@@ -127,35 +127,6 @@ We have collected some [frequently asked questions](https://github.com/ElemeFE/e
 Please make sure to read the contributing guide ([中文](https://github.com/ElemeFE/element/blob/master/.github/CONTRIBUTING.zh-CN.md) | [English](https://github.com/ElemeFE/element/blob/master/.github/CONTRIBUTING.en-US.md) | [Español](https://github.com/ElemeFE/element/blob/master/.github/CONTRIBUTING.es.md) | [Français](https://github.com/ElemeFE/element/blob/master/.github/CONTRIBUTING.fr-FR.md)) before making a pull request.
 
 [![Let's fund issues in this repository](https://issuehunt.io/static/embed/issuehunt-button-v1.svg)](https://issuehunt.io/repos/67274736)
-
-## Special Thanks
-English documentation is brought to you by SwiftGG Translation Team:
-- [raychenfj](https://github.com/raychenfj)
-- [kevin](http://thekevin.cn/)
-- [曾小涛](https://github.com/zengxiaotao)
-- [湾仔王二](https://github.com/wanzaiwanger)
-- [BlooDLine](http://www.ibloodline.com/)
-- [陈铭嘉](https://chenmingjia.github.io/)
-- [千叶知风](http://mpc6.com/)
-- [梁杰](http://numbbbbb.com)
-- [Changing](https://github.com/sunzhuo11)
-- [mmoaay](https://github.com/mmoaay)
-
-Spanish documentation is made possible by these community developers:
-- [adavie1](https://github.com/adavie1)
-- [carmencitaqiu](https://github.com/carmencitaqiu)
-- [coderdiaz](https://github.com/coderdiaz)
-- [fedegar33](https://github.com/fedegar33)
-- [Gonzalo2310](https://github.com/Gonzalo2310)
-- [lesterbx](https://github.com/lesterbx)
-- [ProgramerGuy](https://github.com/ProgramerGuy)
-- [SantiagoGdaR](https://github.com/SantiagoGdaR)
-- [sigfriedCub1990](https://github.com/sigfriedCub1990)
-- [thechosenjuan](https://github.com/thechosenjuan)
-
-French documentation is made possible by these community developers:
-- [smalesys](https://github.com/smalesys)
-- [blombard](https://github.com/blombard)
 
 ## Donation
 If you find Element useful, you can buy us a cup of coffee
@@ -189,7 +160,6 @@ Support us with a monthly donation and help us continue our activities. [[Become
 <a href="https://opencollective.com/element/backer/20/website" target="_blank"><img src="https://opencollective.com/element/backer/20/avatar.svg"></a>
 <a href="https://opencollective.com/element/backer/21/website" target="_blank"><img src="https://opencollective.com/element/backer/21/avatar.svg"></a>
 <a href="https://opencollective.com/element/backer/22/website" target="_blank"><img src="https://opencollective.com/element/backer/22/avatar.svg"></a>
-<a href="https://opencollective.com/element/backer/23/website" target="_blank"><img src="https://opencollective.com/element/backer/23/avatar.svg"></a>
 <a href="https://opencollective.com/element/backer/24/website" target="_blank"><img src="https://opencollective.com/element/backer/24/avatar.svg"></a>
 <a href="https://opencollective.com/element/backer/25/website" target="_blank"><img src="https://opencollective.com/element/backer/25/avatar.svg"></a>
 <a href="https://opencollective.com/element/backer/26/website" target="_blank"><img src="https://opencollective.com/element/backer/26/avatar.svg"></a>
@@ -232,12 +202,6 @@ Become a sponsor and get your logo on our README on Github with a link to your s
 <a href="https://opencollective.com/element/sponsor/27/website" target="_blank"><img src="https://opencollective.com/element/sponsor/27/avatar.svg"></a>
 <a href="https://opencollective.com/element/sponsor/28/website" target="_blank"><img src="https://opencollective.com/element/sponsor/28/avatar.svg"></a>
 <a href="https://opencollective.com/element/sponsor/29/website" target="_blank"><img src="https://opencollective.com/element/sponsor/29/avatar.svg"></a>
-
-## Join Discusion Group
-
-Scan the QR code using [Dingtalk App](https://www.dingtalk.com/) to join in discusion group :
-
-<img alt="Join Discusion Group" src="https://user-images.githubusercontent.com/17680888/60150281-95183f80-980a-11e9-88a8-d324c5e8d83b.png" width="300">
 
 
 ## LICENSE
