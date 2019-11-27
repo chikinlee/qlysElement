@@ -171,8 +171,7 @@ const install = function(Vue, opts = {}) {
   locale.i18n(opts.i18n);
 
   components.forEach(component => {
-    let componentName = component.name.replace('el-', 'ys-')
-    Vue.component(componentName, component);
+    Vue.component(component.name, component);
   });
 
   Vue.use(InfiniteScroll);
