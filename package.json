@@ -2,7 +2,7 @@
   "name": "@qlys/ys-element-ui",
   "version": "2.13.0",
   "description": "A Component Library for Vue.js.",
-  "main": "lib/element-ui.common.js",
+  "main": "lib/ys-element-ui.common.js",
   "files": [
     "lib",
     "src",

@@ -24,7 +24,8 @@ const install = function(Vue, opts = {}) {
   locale.i18n(opts.i18n);
 
   components.forEach(component => {
-    Vue.component(component.name, component);
+    let componentName = component.name.replace(/(^El*)/, 'Ys').replace(/(^el*)/, 'ys');
+    Vue.component(componentName, component);
   });
 
   Vue.use(InfiniteScroll);
@@ -70,7 +71,7 @@ var installTemplate = [];
 var listTemplate = [];
 
 ComponentNames.forEach(name => {
-  var componentName = uppercamelcase(name);
+  var componentName = uppercamelcase(name).replace(/(^El*)/, 'Ys').replace(/(^el*)/, 'ys');
 
   includeComponentTemplate.push(render(IMPORT_TEMPLATE, {
     name: componentName,
