@@ -24,7 +24,7 @@ const install = function(Vue, opts = {}) {
   locale.i18n(opts.i18n);
 
   components.forEach(component => {
-    let componentName = component.name.replace(/(^El*)/, 'Ys').replace(/(^el*)/, 'ys');
+    let componentName = component.name;
     Vue.component(componentName, component);
   });
 
